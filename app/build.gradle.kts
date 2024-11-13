@@ -8,6 +8,9 @@ plugins {
 
     // KPS
     id("com.google.devtools.ksp")
+
+    // Navigation Compose
+    alias(libs.plugins.kotlin.serialization.json)
 }
 
 android {
@@ -89,4 +92,11 @@ dependencies {
 
     // VM whit Compose
     implementation(libs.androidx.runtime.livedata)
+
+    // M3
+    implementation(libs.material3)
+
+    // Navigation Compose
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.kotlin.serialization.json)
 }

@@ -7,4 +7,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-->My Colors</-->
+
+    <color name="_background">#2C2020</color>
+    <color name="_ground">#482625</color>
+    <color name="_fronground">#A7735F</color>
+
+    <color name="_unselected">#355A24</color>
+    <color name="_selected">#BFAF1F</color>
+
+    <color name="_blue">#296A7D</color>
+    <color name="_light_blue">#45A1B0</color>
+
+    <color name="_text">#FDFDFD</color>
+
 </resources>

@@ -22,5 +22,7 @@ interface CubeDao {
     @Delete()
     suspend fun deleteCube(cubeEntity: CubeEntity)
 
-    // getFilterList
+    @Query("SELECT * FROM cube_table WHERE name LIKE '%' || :string || '%' ")
+    suspend fun getFilterCubes(string: String): List<CubeEntity>
+
 }
